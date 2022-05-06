@@ -9,21 +9,11 @@ function App() {
   return (
     <div>
       <Navbar>
-      
-        {/* <NavItem icon='shape'/>
-        
-        <NavItem icon='color'/> */}
-       
-        {/* <NavItem icon={ <CogIcon />}>
-        
-        <DropdownMenu></DropdownMenu>
-
-      </NavItem> */}
 
       <NavItem icon='Shape'>
         
         <DropdownMenu>
-
+    
         </DropdownMenu>
 
       </NavItem>
@@ -31,7 +21,7 @@ function App() {
       <NavItem icon='Color'>
         
         <DropdownMenu>
-          
+
         </DropdownMenu>
 
       </NavItem>
