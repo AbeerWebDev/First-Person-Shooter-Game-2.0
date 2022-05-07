@@ -10,7 +10,7 @@
 
 .navbar {
     height: var(--nav-size);
-    background-color: var(--bg);
+    background-color: pink;
     padding: 0 1rem;
     border-bottom: var(--border);
   }
