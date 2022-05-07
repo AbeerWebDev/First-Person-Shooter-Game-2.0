@@ -1,33 +1,26 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import NavItem from "./components/NavItem";
-import DropdownMenu from "./components/DropdownMenu";
-import './index.css';
-import { ReactComponent as CogIcon } from './icons/cog.svg';
+import Navbar from "./components/Navbar/Navbar";
+import NavItem from "./components/NavItem/NavItem";
+
+import "./index.css";
+// import { ReactComponent as CogIcon } from "./icons/cog.svg";
+import Container from "./components/Container/Container";
+import UserOptions from "./components/UserOptions/UserOptions";
+import Character from "./components/Character/Character";
 
 function App() {
   return (
     <div>
       <Navbar>
+        {/* the navItem is the cog.svg which is a drop dowm menu for the settings */}
+        <NavItem></NavItem>
+      </Navbar>
+      <Container>
+        <UserOptions></UserOptions>
+        <Character></Character>
+        <BallColor></BallColor>
 
-      <NavItem icon='Shape'>
-        
-        <DropdownMenu>
-    
-        </DropdownMenu>
-
-      </NavItem>
-
-      <NavItem icon='Color'>
-        
-        <DropdownMenu>
-
-        </DropdownMenu>
-
-      </NavItem>
-
-       </Navbar>
-
+      </Container>
       
     </div>
   );
