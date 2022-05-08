@@ -13,6 +13,16 @@ a {
 	text-decoration: none;
 }
 
+/* #container{
+	z-index:
+} */
+
+#root {
+	position:absolute;
+	top:0px;
+	z-index:100;
+}
+
 a:hover {
 	text-decoration: underline;
 }
