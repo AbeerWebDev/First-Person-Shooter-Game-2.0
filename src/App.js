@@ -12,20 +12,30 @@ import { ReactComponent as CogIcon } from './icons/cog.svg';
 
 function App() {
   return (
-    <div>
+    <div className="parent">
       <Navbar>
         {/* the navItem is the cog.svg which is a drop dowm menu for the settings */}
         <NavItem icons={<CogIcon />}></NavItem>
       </Navbar>
-      <Container>
-        <UserOptions></UserOptions>
+     
+      <Container/>
+        
+
+      <UserOptions></UserOptions>
         <Character></Character>
         <BallColor></BallColor>
-
-      </Container>
       
     </div>
+
+
+
+
+
+
+
+
   );
+
 }
 
 export default App;

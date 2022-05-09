@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Cog from '../../icons/cog.png'
 
 
 function NavItem(props) {

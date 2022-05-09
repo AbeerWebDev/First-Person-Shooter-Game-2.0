@@ -8,6 +8,17 @@
   --speed: 500ms; 
 }
 
+.parent {
+  position: relative;
+}
+
+.containerBox {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
 .navbar {
     height: var(--nav-size);
     background-color: pink;
@@ -27,6 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  
   }
   
   .icon-button {
