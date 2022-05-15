@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import NavItem from "./components/NavItem/NavItem";
 
@@ -9,30 +8,35 @@ import UserOptions from "./components/UserOptions/UserOptions";
 import Character from "./components/Character/Character";
 import BallColor from "./components/BallColor/BallColor";
 import { ReactComponent as CogIcon } from './icons/cog.svg';
+// import React, { useState } from 'react';
 
 function App() {
-  return (
-    <div className="parent">
-      <Navbar>
-        {/* the navItem is the cog.svg which is a drop dowm menu for the settings */}
-        <CogIcon></CogIcon>
-      </Navbar>
-     
-      <Container/>
-        
 
-      <UserOptions></UserOptions>
-        <Character></Character>
-        <BallColor></BallColor>
+
+
+  return (
+
+    <div ClassName="parent">
+      <Navbar>
+       
+        <NavItem />
+
+        <select>
+        <CogIcon/>
+        </select>
+
+
+
+       
+     
+      </Navbar>
+      <Container/>
+      
+          <UserOptions></UserOptions>
+          <Character></Character>
+          <BallColor></BallColor>
       
     </div>
-
-
-
-
-
-
-
 
   );
 
