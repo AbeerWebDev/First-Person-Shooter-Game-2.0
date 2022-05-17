@@ -13,18 +13,12 @@ a {
 	text-decoration: none;
 }
 
-#container{
-	z-index: 900;
-}
+/* #container{
+	z-index:
+} */
 
 #root {
-	position:absolute;
-	top:0px;
-
-}
-
-#button-ui {
-z-index: 1000;
+	z-index:-2;
 }
 
 a:hover {
