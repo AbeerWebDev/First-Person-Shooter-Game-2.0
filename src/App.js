@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-import { ReactComponent as CogIcon } from './icons/cog.svg';
+import SettingsOutlinedIcon from '@material-ui/icons/SettingsOutlined';
 
 
 const style = {
@@ -12,11 +12,11 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: 400,
-  bgcolor: 'background.paper',
+  backgroundColor: 'black',
   border: '2px solid #000',
   boxShadow: 24,
   p: 4,
-  zIndex:5
+  zIndex:7
 };
 
 const cogStyle = {
@@ -35,7 +35,7 @@ function App() {
     <div>
       
      <Button style={{position:'absolute',top:0,right:20,zIndex:7}} onClick={handleOpen}>
-         <CogIcon style={cogStyle}/>
+         <SettingsOutlinedIcon style={cogStyle}/>
         </Button><Modal
           open={open}
           onClose={handleClose}
@@ -44,10 +44,10 @@ function App() {
         >
           <Box sx={style}>
             <Typography id="modal-modal-title" variant="h6" component="h2">
-              Character Settings
+              Chuwhekfhawpiou
             </Typography>
             <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-              Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+              uhkhkhkhkjhkhkhkhkhkhkhjkhkhkkhkhk
             </Typography>
           </Box>
         </Modal>
@@ -56,9 +56,7 @@ function App() {
 }
 
 
-
 export default App;
-
 
 
 
