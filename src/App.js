@@ -9,21 +9,60 @@ import SettingsOutlinedIcon from "@material-ui/icons/SettingsOutlined";
 import { useTheme } from "@mui/material/styles";
 import MobileStepper from "@mui/material/MobileStepper";
 
+
 import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 
-const style = {
+import { 
+  TypographyWrapper,
+
+
+
+} from "./styles";
+
+// import { makeStyles } from '@material-ui/core/styles';
+
+// import  { css, ThemeProvider } from '@emotion/react';
+
+
+// const useStyle = makeStyles({
+//   root: {
+//     background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+//     border: 0,
+//     borderRadius: 3,
+//     boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+//     color: 'white',
+//     maxHeight: 100,
+//     maxWidth: 100,
+//     padding: '0 30px',
+//   }
+// });
+
+// function BoxStyled() {
+//   const boxClass = useStyle();
+//   return (
+//   <Box className={boxClass.root} />;
+//   )
+// }
+
+
+const style= {
   position: "absolute",
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: 400,
-  backgroundColor: "black",
+  backgroundColor: "white",
   border: "2px solid #000",
   boxShadow: 24,
   p: 4,
   zIndex: 7,
-};
+}
+
+
+
+
+
 
 const cogStyle = {
   width: 50,
@@ -46,18 +85,18 @@ function DotsMobileStepper() {
   return (
     <MobileStepper
       variant="dots"
-      steps={6}
+      steps={3}
       position="static"
       activeStep={activeStep}
       sx={{ maxWidth: 400, flexGrow: 1 }}
       nextButton={
-        <Button size="small" onClick={handleNext} disabled={activeStep === 5}>
-          Next
+        <Button size="small" onClick={handleNext} disabled={activeStep === 2}>
           {theme.direction === 'rtl' ? (
             <KeyboardArrowLeft />
           ) : (
             <KeyboardArrowRight />
           )}
+          Next
         </Button>
       }
       backButton={
@@ -91,15 +130,28 @@ function App() {
         open={open}
         onClose={handleClose}
       >
-        <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
+      
+      
+        <Box style={style}>
+       
+        <TypographyWrapper>
+
+        
+    
+
+            <Typography id="modal-modal-title" variant="h6" component="h2" position='center'>
+            Customize Your Character
+            </Typography>
+            <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             hello
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            hello
-          </Typography>
-          <DotsMobileStepper />
+            </Typography>
+           
+         </TypographyWrapper>
+
+            <DotsMobileStepper />
+            
         </Box>
+      
       </Modal>
     </div>
   );
