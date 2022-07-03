@@ -1,4 +1,6 @@
-# First Person Shooter Dodgeball. Live game [here](https://abeer958.github.io/fps2.0/build/index.html)
+# First Person Shooter Dodgeball. 
+
+Live game [here](https://abeer958.github.io/fps2.0/build/index.html)
 
 ## Table of Content
 * General Information
@@ -14,25 +16,23 @@
 
 ## General Information
 
-MeetUp is a platform where you can arrange hangouts with your social group. In this project I used routing to enhance the user experience, firebase as a backend server, and the useContext hook for better runtime. 
+A PG13 dodgeball first person shooter (fps) game. This game is built using ReactJS, and Three.JS a Javascript 3D library.
 
 ### Purpose of this project
 
-To build a complete ReactJS product that utilises routing, createContext, and a backend server.
+To build a 3D multiplayer game in collaboration with other developers.
 
 ## Technologies Used
 * ReactJS
-* FireBase
+* Three.JS
 * HTML
 * CSS
 * JavaScript
 
 ## Features
-* Add a Meetup by providng a title, location, image, and description.
-* Favorite Meetups.
-* Unfavorite Meetups.
-* Keep track of favorited Meetup's number with a counter badge.
-* View all Meetups favorited and otherwise.
+* Auth Login.
+* Multiplayer game.
+* 3D Design.
 
 ## Screenshot
 Version 1.0 
@@ -60,35 +60,26 @@ To Visit App:
 
 ## Usage
 
-**Add A Meetup**
+**Sign Up/ Login**
 
-* Add a Meetup by providng a title, location, image, and description.
+* Join web10 a decentralized cloud platform.
 
-**Add to Favorites**
+**Play Game**
 
-* Add desired Meetups to your favorite list.
-
-**Remove from Favorites**
-
-* Remove undesired Meetups from your favorite list.
-
-**Track Favorites**
-
-* Keep track of how many Meetups you have favorited through a badge counter.
-
-**View All**
-
-* View all Meetups whether favorited or otherwise.
+* Play dodgeball with other players.
 
 ## Project Status
-Project is: Completed
+Project is: In progress 
 
 ## Room for Improvement
-* Store Favorited Meetups on a backend server, which will allow the user to refresh the favorites page without losing data.
+* Add UI with ReactJS.
+* Add settings that allow for character adjustments (e.g. skins).
 
 ## Acknowledgements
-* Many thanks to Academind.
+* Many thanks to Jacob149.
 
 ## Contact
-Created by Abeer Ahmed [LinkedIn profile](add url) - feel free to contact me.
+- Abeer Ahmed [LinkedIn profile](add url) - feel free to contact me.
+- @Jacob149 on Github.
+
 
