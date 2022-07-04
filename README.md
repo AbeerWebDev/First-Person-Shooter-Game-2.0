@@ -1,4 +1,4 @@
-# First Person Shooter Dodgeball. 
+# First Person Shooter Dodgeball
 
 Live game [here](https://abeer958.github.io/fps2.0/build/index.html)
 
