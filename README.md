@@ -79,7 +79,7 @@ Project is: In progress
 * Many thanks to Jacob149.
 
 ## Contact
-- Abeer Ahmed [LinkedIn profile](https://www.linkedin.com/in/abeerfrontend/) - feel free to contact me.
+- Abeer Ahmed [LinkedIn profile](https://www.linkedin.com/in/abeerdev/) - feel free to contact me.
 - @Jacob149 on Github.
 
 
